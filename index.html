@@ -1,0 +1,429 @@
+<!DOCTYPE html>  <html lang="id">  
+<head>  
+  <meta charset="UTF-8" />  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>  
+  <title>Aboutme</title>  
+  <link rel="stylesheet" href="style.css" />  
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />  
+</head>  
+<body>  
+
+  <div class="page" id="home">  
+    <img src="https://files.catbox.moe/ghilsk.jpg" alt="Logo" class="logo floating" />  
+    <audio id="bg-music" src="https://files.catbox.moe/8v93nb.mp3"></audio>  
+    <button onclick="toggleMusic()">Play Music</button>  <!-- Pemutar Musik -->  
+<div id="music-player" style="display:none; margin-top:10px; text-align:center;">  
+  <p id="music-title"><strong>Judul Lagu:</strong> Wut Wut Wut</p>  
+  <p id="music-artist"><strong>Penyanyi:</strong> Rizky Febian</p>  
+  <input type="range" id="seek-bar" value="0" style="width:80%;" />  
+  <p><span id="current-time">0:00</span> / <span id="duration">0:00</span></p>  
+  <button onclick="stopMusic()">Stop</button>  
+</div>  
+
+<nav>  
+</nav>  
+<p id="typed-text"></p>  
+<script>
+
+const text = "O'la bre Wellcome to website XwyyKaxxz, Scrool ke bawah aja bre
+const typedText = document.getElementById("typed-text");
+let index = 0;
+
+function typeEffect() {
+if (index < text.length) {
+typedText.innerHTML += text.charAt(index);
+index++;
+setTimeout(typeEffect, 50); // kecepatan ngetik, ubah 40 jadi lebih kecil kalau mau lebih cepet
+}
+}
+
+window.onload = typeEffect;
+</script>
+<div style="display: flex; gap: 20px; justify-content: center; align-items: center; margin: 10px 0;">
+<a href="https://t.me/KaxxzNotDev" target="_blank">
+<img src="https://files.catbox.moe/xltp58.jpg" alt="Telegram" class="icon floating" />
+</a>
+<a href="https://wa.me/6285865613356" target="_blank">
+<img src="https://files.catbox.moe/ju5m1g.jpg" alt="WhatsApp" class="icon floating" />
+</a>
+</div>
+<p><strong>Bahasa Pemrograman yang Dikuasai:</strong></p>
+<div style="display: flex; gap: 20px; justify-content: center; align-items: center;">
+<img src="https://files.catbox.moe/jiw6da.jpg" alt="JavaScript" class="icon floating" />
+<img src="https://files.catbox.moe/zlyx85.jpg" alt="Css" class="icon floating" />
+</div>
+</div>
+<div class="page" id="partner">
+  <h2>SCROOL DI BWAH INI BREE</h2>
+  <div class="produk-list">
+
+    <!-- PARTNER SUKI -->
+    <div class="produk">
+      <img src="https://files.catbox.moe/toqai2.jpg" alt="PARTNER SUKI" class="floating" />
+      <p><strong>PARTNER SUKI</strong></p>
+      <p><strong>BENEFIT:</strong></p>
+      <ul style="text-align: left; padding-left: 15px;">
+        <li> ✰GET BASE WHATSAPP</li>
+        <li> ✰GET BASE TELEGRAM</li>
+        <li> ✰GET FUNCTION ANTI AMPAS</li>
+        <li> ✰TUTOR PASANG FUNCTION</li>
+        <li> ✰TUTOR ADD FUNCTION</li>
+        <li> ✰GET SCRIPT DATABASE</li>
+        <li> ✰TUTOR ADD DATABASE</li>
+        <li> ✰GET ADMIN MURBUG</li>
+        <li> ✰GET MT UNBANND WA</li>
+        <li> ✰GET MT BANNED WA</li>
+        <li> ✰GET BAHAN UP PAYMENT</li>
+        <li> ✰GET APK TOP UP MURAH</li>
+        <li> ✰GET WEB NOKOS MURAH</li>
+        <li> ✰GET WEB SUNTIK MURAH</li>
+        <li> ✰GET PIXELAB</li>
+        <li> ✰GET TEKS UNLIMIT TELEGRAM</li>
+        <li> ✰GET APK BIOSKOP</li>
+        <li> ✰GET TUTOR CREATE WEB</li>
+        <li> ✰GET BAHAN LOGO</li>
+        <li> ✰DIPROMOSIKAN DI BANYAK GRUB+CH</li>
+        <li> ✰DISHARE JUALAN LU BIAR BALMOD</li>
+        <li> ✰DIPERCAYA BUYER</li>
+        <li> ✰DIKASIH BUYER (KALO ADA)</li>
+        <li> ✰DIJAMIN BALMOD GEDE</li>
+        <li> ✰FULL DORONGAN DARI GW
+        <li> ✰NAIK NAMA BARENG GW(kaxxz)</li> 
+        <li> ✰DLL MASIH BANYAK CUMAN MALES YAPPING</li>
+      </ul>
+      <p>Harga: Rp 10.000</p>
+      <a href="https://t.me/KaxxzNotDev" target="_blank"><button>Owner</button></a>
+      <a href="https://t.me/TestimoniKaxxz" target="_blank"><button>Testi</button></a>
+    </div>
+
+    <!--- MURID UNBAND -->
+    <div class="produk">
+      <img src="https://files.catbox.moe/toqai2.jpg" alt="MURID UNBAND" class="floating" />
+      <p><strong>MURID UNBAND</strong></p>
+      <p><strong>BENEFIT:</strong></p>
+      <ul style="text-align: left; padding-left: 15px;">
+        <li>- 𝐌𝐞𝐧𝐝𝐚𝐩𝐚𝐭𝐤𝐚𝐧 𝐌𝐞𝐭𝐨𝐝𝐞 𝐀𝐥𝐥 𝐎𝐩𝐬𝐢 𝐊𝐞𝐧𝐨𝐧</li>
+        <li>- 𝐌𝐞𝐭𝐨𝐝𝐞 𝐊𝐞𝐧𝐨𝐧 𝐒𝐩𝐚𝐦 𝐊𝐞𝐝𝐢𝐩 𝐀𝐭𝐚𝐮 𝐅𝐚𝐬𝐭</li>
+        <li>- 𝐌𝐞𝐭𝐨𝐝𝐞 𝐊𝐞𝐧𝐨𝐧 𝐏𝐞𝐫𝐦𝐚𝐧𝐞𝐧 𝐓𝐢𝐧𝐣𝐚𝐮 𝐅𝐚𝐬𝐭</li>
+        <li>- 𝐌𝐞𝐭𝐨𝐝𝐞 𝐊𝐞𝐧𝐨𝐧 𝐏𝐞𝐫𝐦𝐚𝐧𝐞𝐧 𝐇𝐚𝐫𝐝</li> 
+        <li>- 𝐌𝐞𝐭𝐨𝐝𝐞 𝐊𝐞𝐧𝐨𝐧 𝐏𝐞𝐫𝐦𝐚𝐧𝐞𝐧 𝐁𝐚𝐭𝐮</li>
+        <li>- 𝐌𝐞𝐭𝐨𝐝𝐞 𝐁𝐮𝐤𝐚 𝐆𝐫𝐮𝐛 𝐘𝐚𝐧𝐠 𝐊𝐞𝐧𝐨𝐧</li> 
+        <li>- 𝐌𝐞𝐭𝐨𝐝𝐞 𝐋𝐞𝐩𝐚𝐬 𝐋𝐢𝐦𝐢𝐭 𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩</li> 
+        <li>- 𝐌𝐞𝐭𝐨𝐝𝐞 𝐌𝐞𝐭𝐨𝐝𝐞 𝐍𝐞𝐞𝐝 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥</li> 
+        <li>- 𝐔𝐩 𝐌𝐞𝐭𝐨𝐝𝐞 𝐘𝐚𝐧𝐠 𝐒𝐮𝐝𝐚𝐡 𝐏𝐞𝐫𝐧𝐚𝐡 𝐃𝐢 𝐓𝐫𝐲</li> 
+        <li>- 𝐁𝐞𝐛𝐚𝐬 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐌𝐞𝐭𝐨𝐝𝐞</li> 
+        <li>- 𝐏𝐞𝐧𝐠𝐚𝐣𝐚𝐫𝐚𝐧 𝐋𝐞𝐰𝐚𝐭 𝐎𝐬 𝐀𝐭𝐚𝐮 𝐕𝐢𝐝𝐞𝐨 𝐁𝐞𝐛𝐚𝐬</li> 
+        <li>- 𝐌𝐮𝐫𝐢𝐝 𝐆𝐮𝐚 𝐔𝐫𝐮𝐬 𝐒𝐞𝐭𝐢𝐚𝐩 𝐇𝐚𝐫𝐢 𝐆𝐚𝐤 𝐃𝐢 𝐋𝐚𝐧𝐭𝐚𝐫𝐢𝐧</li> 
+        <li>- 𝐅𝐮𝐥𝐥 𝐏𝐞𝐧𝐠𝐚𝐣𝐚𝐫𝐚𝐧 𝐒𝐚𝐦𝐩𝐞 𝐁𝐢𝐬𝐚 𝐔𝐧𝐛𝐚𝐧𝐝</li> 
+        <li>- 𝐃𝐢 𝐀𝐣𝐚𝐫𝐢𝐧 𝐑𝐞𝐧𝐚𝐦𝐞 𝐀𝐩𝐤</li>
+      </ul>
+      <p>Harga: Rp 15.000</p>
+      <a href="https://t.me/KaxxzNotDev" target="_blank"><button>Owner</button></a>
+      <a href="https://t.me/TestimoniKaxxz" target="_blank"><button>Testi</button></a>
+    </div>
+
+    <!-- PARTNER PRIBADI -->
+    <div class="produk">
+      <img src="https://files.catbox.moe/toqai2.jpg" alt="PARTNER PRIBADI" class="floating" />
+      <p><strong>PARTNER PRIBADI</strong></p>
+      <p><strong>BENEFIT:</strong></p>
+      <ul style="text-align: left; padding-left: 15px;">
+        <li> ✰GET PARTNER SCRIPT COSMOSTWO VIA WA</li>
+        <li> ✰GET RESELLER SCRIPT THUNDER SINISTER VIA TELE</li>
+        <li> ✰GET SCRIPT TWELVE FORTUNES FULL UP VIA TELE</li>
+        <li> ✰GET SCRIPT ETERNAL GALAXY NO UP VIA TELE</li>
+        <li> ✰GET SCRIPT MAJESTIC MATRIX NO UP VIA TELE</li>
+        <li> ✰GET BASE WHATSAPP</li>
+        <li> ✰GET BASE TELEGRAM</li>
+        <li> ✰GET FUNCTION ANTI AMPAS</li>
+        <li> ✰TUTOR PASANG FUNCTION</li>
+        <li> ✰TUTOR ADD FUNCTION</li>
+        <li> ✰GET SCRIPT DATABASE</li>
+        <li> ✰TUTOR ADD DATABASE</li>
+        <li> ✰GET ADMIN MURBUG</li>
+        <li> ✰GET MT UNBANND WA</li>
+        <li> ✰GET MT BANNED WA</li>
+        <li> ✰GET BAHAN UP PAYMENT</li>
+        <li> ✰GET APK TOP UP MURAH</li>
+        <li> ✰GET WEB NOKOS MURAH</li>
+        <li> ✰GET WEB SUNTIK MURAH</li>
+        <li> ✰GET PIXELAB</li>
+        <li> ✰GET TEKS UNLIMIT TELEGRAM</li>
+        <li> ✰GET APK BIOSKOP</li>
+        <li> ✰GET TUTOR CREATE WEB</li>
+        <li> ✰GET BAHAN LOGO</li>
+        <li> ✰DIPROMOSIKAN DI BANYAK GRUB+CH</li>
+        <li> ✰DISHARE JUALAN LU BIAR BALMOD</li>
+        <li> ✰DIPERCAYA BUYER</li>
+        <li> ✰DIKASIH BUYER (KALO ADA)</li>
+        <li> ✰DIJAMIN BALMOD GEDE</li>
+        <li> ✰FULL DORONGAN DARI GW</li>
+        <li> ✰NAIK NAMA BARENG GW(kaxxz)</li>
+        <li> ✰DLL MASIH BANYAK CUMAN MALES YAPPING</li>
+      </ul>
+      <p>Harga: Rp 60.000</p>
+      <a href="https://t.me/KaxxzNotDev" target="_blank"><button>Owner</button></a>
+      <a href="https://t.me/TestimoniKaxxz" target="_blank"><button>Testi</button></a>
+    </div>
+
+    <!-- PRICE LIST PAID UNBAND -->
+    <div class="produk">
+      <img src="https://files.catbox.moe/toqai2.jpg" alt="PRICE LIST PAID UNBAND" class="floating" />
+      <p><strong>PRICE LIST PAID UNBAND</strong></p>
+      <p><strong>HARGA:</strong></p>
+      <ul style="text-align: left; padding-left: 15px;">
+        <li> ★ 𝐎𝐩𝐬𝐢 𝐒𝐩𝐚𝐦 : 𝟮𝟬𝗞</li>
+        <li> – Proses 3 Jam - 6 Jam</li> 
+        <li> – Dapet Teks Biar Ga Kenon Lagi</li>
+        <li> – Boleh Dp/Nego Kalo Duit Kurang</li>
+        <li> ★ 𝐎𝐩𝐬𝐢 𝐏𝐞𝐫𝐦𝐚𝐧𝐞𝐧 𝐄𝐚𝐬𝐲/𝐓𝐢𝐧𝐣𝐚𝐮 : 𝟯𝟬𝗞</li>
+        <li> – Proses 4 Jam - 1 Hari</li>
+        <li> – Dapet Teks Biar Ga Kenon Lagi</li>
+        <li> – Boleh Dp/Nego Kalo Duit Kurang</li>
+        <li> ★ 𝐎𝐩𝐬𝐢 𝐏𝐞𝐫𝐦𝐚𝐧𝐞𝐧 𝐇𝐚𝐫𝐝 : 𝟱𝟬𝗞</li>
+        <li> – Proses 3 Hari - 1 Minggu+</li>
+        <li> – Dapet Teks Biar Ga Kenon Lagi</li>
+        <li> – Boleh Dp/Nego Kalo Duit Kurang</li>
+        <li> ★ 𝐎𝐩𝐬𝐢 𝐏𝐞𝐫𝐦𝐚𝐧𝐞𝐧 𝐁𝐚𝐭𝐮 : 𝟲𝟱𝗞</li>
+        <li> – Proses 5 Hari - 1,5 Minggu+</li>
+        <li> – Dapet Teks Biar Ga Kenon Lagi</li>
+        <li> – Boleh Dp/Nego Kalo Duit Kurang</li>
+        <li> ★ 𝐎𝐩𝐬𝐢 𝐏𝐞𝐫𝐦𝐚𝐧𝐞𝐧 𝐅𝐫𝐞𝐬𝐡 (𝟏-𝟔 𝐃𝐚𝐲) : 𝟴𝟬𝗞</li>
+        <li> – Proses 3 Hari - 1 Minggu</li>
+        <li> – Dapet Teks Biar Ga Kenon Lagi</li>
+        <li> – Boleh Dp/Nego Kalo Duit Kurang</li>
+        <li> ★ 𝐎𝐩𝐬𝐢 𝐏𝐞𝐫𝐦𝐚𝐧𝐞𝐧 𝐒𝐞𝐭 𝐏𝐩 𝐁𝐨𝐜𝐢𝐥 𝐊𝐞𝐦𝐚𝐭𝐢𝐚𝐧 : 𝟭𝟬𝟬𝗞</li>
+        <li> – Proses 3 Hari - 1 Minggu+</li>
+        <li> – Dapet Teks Biar Ga Kenon Lagi</li>
+        <li> – Boleh Dp/Nego Kalo Duit Kurang</li>
+
+        <li> 𝐒𝐈𝐒𝐓𝐄𝐌 : 𝗦𝗲𝗻𝗱 𝗡𝗼𝗺𝗼𝗿 𝗬𝗮𝗻𝗴 𝗞𝗲 𝗞𝗲𝗻𝗼𝗻</li> 
+        <li> → 𝗣𝗿𝗼𝘀𝗲𝘀 → 𝗝𝗲𝗯𝗼𝗹 → 𝗖𝗵𝗶𝗽 𝗦𝗲𝘀𝘂𝗮𝗶 𝗢𝗽𝘀𝗶 𝗞𝗲𝗻𝗼𝗻</li>
+      </ul>
+      <a href="https://t.me/KaxxzNotDev" target="_blank"><button>Owner</button></a>
+      <a href="https://t.me/TestimoniKaxxz" target="_blank"><button>Testi</button></a>
+    </div>
+
+    <!-- AKSES COSMOS X-PRO -->
+    <div class="produk">
+      <img src="https://files.catbox.moe/toqai2.jpg" alt="AKSES COSMOS X-PRO" class="floating" />
+      <p><strong>AKSES COSMOS X-PRO</strong></p>
+      <ul style="text-align: left; padding-left: 15px;">
+        <li>  🐉⃝𝗽𝗿𝗶𝗰𝗲 𝗦𝗰𝗿𝗶𝗽𝘁🐉⃝</li>
+        <li>★ No Up : 15K/15.000</li>
+        <li>★ Free Up : 20k/20.000</li>
+        <li>★ Reseller Full Up : 50k/50.000</li>
+        <li>★ Partner Full Up : 70k/70.000</li>
+        <li>★ T Kanan Full Up : 90k/90.000</li>
+        <li>★ Moderator Full Up : 120k/120.000</li>
+
+        <li>• 🐉⃝𝗘𝗳𝗲𝗸 𝗕𝘂𝗴🐉⃝</li>
+        <li>• Function New 100%</li>
+        <li>• Force Close No Click</li>
+        <li>• Delay Ui System</li>
+        <li>• Force Close Invis</li>
+        <li>• Delay Invisible Permanen</li>
+        <li>• Force Close Beta New</li>
+        <li>• Crash Home No Click</li>
+        <li>• Bisa Open Murbug</li>
+        <li>• Bisa Open Jasbug</li>
+        <li>• Auto Balmod</li> 
+        <li>• Buat Bisnis baru</li>
+        <li>• DLL</li>
+      </ul>
+      <a href="https://t.me/KaxxzNotDev" target="_blank"><button>Owner</button></a>
+      <a href="https://t.me/TestimoniKaxxz" target="_blank"><button>Testi</button></a>
+    </div>
+
+    <!-- SCRIPT BUG -->
+    <div class="produk">
+      <img src="https://files.catbox.moe/toqai2.jpg" alt="SCRIPT BUG" class="floating" />
+      <p><strong>SCRIPT BUG</strong></p>
+      <p><strong>HARGA:</strong></p>
+      <ul style="text-align: left; padding-left: 15px;">
+        <li>★  𝐒𝐜𝐫𝐢𝐩𝐭 𝐁𝐮𝐠 𝐕𝐢𝐚 𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩 :</li>
+        <li> 𝗖𝗼𝘀𝗺𝗼𝘀𝗧𝘄𝗼 𝗫-𝗣𝗿𝗼 🚀:</li>
+        <li> 15k/15.000 No Up</li>
+        <li> 20k/20.000 Free Up 1x</li>
+        <li> 30k/30.000 Full Up</li> 
+        <li> 50k/50.000 Reseller Full Up</li>
+        <li> 70k/70.000 Partner Full Up</li>
+        <li> 95k/95.000 Tangan Kanan Full Up</li>
+        <li> 120k/120.000 Moderator Full Up</li>
+        <li> 𝗕𝗲𝗻𝗲𝘁𝗶𝗳/𝗧𝗲𝘀 𝗕𝘂𝗴? 𝗣𝘃</li>
+
+        <li> ★ 𝐒𝐜𝐫𝐢𝐩𝐭 𝐁𝐮𝐠 𝐕𝐢𝐚 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 :</li>
+        <li> 𝗧𝘄𝗲𝗹𝘃𝗲 𝗙𝗼𝗿𝘁𝘂𝗻𝗲𝘀 🚀:</li>
+        <li> 30k/30.000 No Up</li>
+        <li> 50k/50.000 Full Up</li>
+        <li> 70k/70.000 Reseller Full Up</li>
+        <li> 90k/90.000 Partner Full Up</li>
+        <li> 𝗧𝗵𝘂𝗻𝗱𝗲𝗿 𝗦𝗶𝗻𝗶𝘀𝘁𝗲𝗿 🚀:</li>
+        <li> 25k/25.000 No Up</li>
+        <li> 40k/40.000 Full Up</li>
+        <li> 50k/50.000 Reseller Full Up</li>
+        <li> 70k/70.000 Partner Full Up</li>
+        <li> 𝗘𝘁𝗲𝗿𝗻𝗮𝗹 𝗚𝗮𝗹𝗮𝘅𝘆 🚀:</li>
+        <li> 30k/30.000 No Up</li>
+        <li> 50k/50.000 Full Up</li>
+        <li> 70k/70.000 Reseller Free Up 3x</li>
+        <li> 90k/90.000 Reseller Full Up</li>
+        <li> 110k/110.000 Partner Free Up 3x</li>
+        <li> 130k/130.000 Partner Full Up</li>
+        <li> 𝗠𝗮𝗷𝗲𝘀𝘁𝗶𝗰 𝗠𝗮𝘁𝗿𝗶𝘅 🚀:</li>
+        <li> 30k/30.000 No Up</li>
+        <li> 70k/70.000 Full Up</li>
+        <li> 90k/90.000 Reseller Full Up</li>
+        <li> 130k/130.000 Partner Full Up</li>
+        <li> 𝗕𝗲𝗻𝗲𝘁𝗶𝗳/𝗧𝗲𝘀 𝗕𝘂𝗴? 𝗣𝘃</li>
+      </ul>
+      <a href="https://t.me/KaxxzNotDev" target="_blank"><button>Owner</button></a>
+      <a href="https://t.me/TestimoniKaxxz" target="_blank"><button>Testi</button></a>
+    </div>
+
+    <!-- AKSES BUG -->
+    <div class="produk">
+      <img src="https://files.catbox.moe/toqai2.jpg" alt="AKSES BUG" class="floating" />
+      <p><strong>AKSES BUG</strong></p>
+      <p><strong>PRICE LIST</strong></p>
+      <ul style="text-align: left; padding-left: 15px;">
+        <li> ★ 𝗦𝗰𝗿𝗶𝗽𝘁💣 :</li>
+        <li> • Twelve Fortunes 1.8🚀</li>
+        <li> • Majestic Matrix 1.4🚀</li>
+        <li> • Eternal Galaxy 1.9🚀</li>
+        <li> • SuperNova 1.0🚀</li>
+        <li> • Eternal Zeno 4.8🚀</li>
+        <li> KADANG" GANTI</li>
+        <li> BISA REQ YG LAIN ASAL GW PUNYA</li>
+
+        <li> ★ 𝙋𝙧𝙞𝙘𝙚💣 :</li> 
+        <li> 𝗠𝘂𝗿𝗶𝗱 𝗕𝘂𝗴 🦖</li>
+        <li> • 3k - Seminggu</li>
+        <li> • 5k - Sebulan</li>
+        <li> • 10k Permanen</li>
+        <li> 𝐁𝐞𝐧𝐞𝐭𝐢𝐟❗❓</li>
+        <li> • Bisa Bug Sepuasnya</li>
+        <li> • Bisa Open Jasa Bug</li>
+        <li> • Jeda Cuma 10 Menit</li>
+        <li> • Force Close Invis</li>
+        <li> • Invisible Hard</li>
+        <li> • Blank</li>
+        <li> • Force Close No Click</li>
+        <li> • Bug ios</li>
+        <li> • Tipe Bug No Spam</li>
+        <li> • Dll Di Jamin Balmod ( klo niat )</li> 
+
+        <li> 𝗢𝘄𝗻𝗲𝗿 𝗠𝘂𝗿𝗯𝘂𝗴🛸</li>
+        <li> • 20k - Permanen</li>
+        <li> 𝐁𝐞𝐧𝐞𝐭𝐢𝐟❗❓</li>
+        <li> • Bisa Bug Sepuasnya</li>
+        <li> • Bisa Open Murid Bug Di Grup Gw</li>
+        <li> • Bisa Open Jasa Bug</li>
+        <li> • Jeda Cuma 10 Menit</li>
+        <li> • Force Close Invis</li>
+        <li> • Invisible Hard</li>
+        <li> • Blank</li>
+        <li> • Force Close No Click</li>
+        <li> • Bug ios</li>
+        <li> • Tipe Bug No Spam</li>
+        <li> • Dll Di Jamin Balmod ( klo niat )</li> 
+
+        <li> 𝗔𝗱𝗺𝗶𝗻 𝗠𝘂𝗿𝗯𝘂𝗴💎</li>
+        <li> • 30k - Permanen</li>
+        <li> 𝐁𝐞𝐧𝐞𝐭𝐢𝐟❗❓</li>
+        <li> • Free Script Thunder Sinister No Up🤩🚀</li>
+        <li> • Bisa Bug Sepuasnya</li>
+        <li> • Bisa Open Murid Bug Di Grup Gw</li>
+        <li> • Bisa Open Owner Murbug Di Grup Gw</li>
+        <li> • Bisa Open Jasa Bug</li>
+        <li> • Jeda Cuma 10 Menit</li>
+        <li> • Force Close Invis</li>
+        <li> • Invisible Hard</li>
+        <li> • Blank</li>
+        <li> • Force Close No Click</li>
+        <li> • Bug ios</li>
+        <li> • Tipe Bug No Spam</li>
+        <li> • Dll Di Jamin Balmod ( klo niat )</li>
+      </ul>
+      <a href="https://t.me/KaxxzNotDev" target="_blank"><button>Owner</button></a>
+      <a href="https://t.me/TestimoniKaxxz" target="_blank"><button>Testi</button></a>
+    </div>
+
+  </div>
+
+    <!-- Profile Section -->
+    <div class="profile-wrapper">
+      <img class="profile-img" src="https://files.catbox.moe/ghilsk.jpg" alt="XwyyXaxxz Profile">
+      <h2>( ❄️ ) Olá Eu sou XwyyXaxxz</h2>
+      <p>私は ─ WhatsApp テムを破壊しようとしているボットです。賢くご利用ください。</p>
+      <p><strong>🧠 Tentang Saya (ID):</strong><br> Saya adalah seorang developer script bug WhatsApp yang berfokus pada pengembangan dan eksploitasi sistem WhatsApp. Saya juga spesialis keamanan dalam pembuatan dan pelindungan script WhatsApp — baik untuk sistem berbasis Telegram maupun langsung via WhatsApp.</p>
+      <p><strong>🧠 About Me (EN):</strong><br> I am a WhatsApp bug script developer focused on system exploitation and security, including creating and securing WA bots integrated with Telegram or direct WA use.</p>
+      <div class="link-buttons">
+        <a href="https://t.me/KaxxzNotDev" target="_blank" class="btn-link">
+          <img src="https://files.catbox.moe/ghilsk.jpg" alt="Telegram">Telegram
+        </a>
+        <a href="https://t.me/TestimoniKaxxz" target="_blank" class="btn-link">
+          <img src="https://files.catbox.moe/p243nv.jpg" alt="Channel">Channel
+        </a>
+      </div>
+    </div>
+
+    <div class="footer">© 2025 Web Shop — Powered by XwyyXaxxz</div>
+  </div>
+
+  <nav style="margin-top: 20px;">
+    <button onclick="scrollToHome()">Back</button>
+  </nav>
+</div>
+ 
+  </nav>  
+</div>    <script>  
+    const music = document.getElementById("bg-music");  
+    const musicPlayer = document.getElementById("music-player");  
+    const seekBar = document.getElementById("seek-bar");  
+    const currentTimeEl = document.getElementById("current-time");  
+    const durationEl = document.getElementById("duration");  
+  
+    function toggleMusic() {  
+      if (music.paused) {  
+        music.play();  
+        musicPlayer.style.display = "block";  
+      } else {  
+        music.pause();  
+      }  
+    }  
+  
+    function stopMusic() {  
+      music.pause();  
+      music.currentTime = 0;  
+    }  
+  
+    music.addEventListener("loadedmetadata", () => {  
+      seekBar.max = music.duration;  
+      durationEl.textContent = formatTime(music.duration);  
+    });  
+  
+    music.addEventListener("timeupdate", () => {  
+      seekBar.value = music.currentTime;  
+      currentTimeEl.textContent = formatTime(music.currentTime);  
+    });  
+  
+    seekBar.addEventListener("input", () => {  
+      music.currentTime = seekBar.value;  
+    });  
+  
+    function formatTime(time) {  
+      const minutes = Math.floor(time / 60);  
+      const seconds = Math.floor(time % 60).toString().padStart(2, "0");  
+      return `${minutes}:${seconds}`;  
+    }  
+  
+    function scrollToProduk() {  
+      document.getElementById("produk").scrollIntoView({ behavior: "smooth" });  
+    }  
+  
+    function scrollToHome() {  
+      document.getElementById("home").scrollIntoView({ behavior: "smooth" });  
+    }  
+  </script>  </body>  
+</html>
